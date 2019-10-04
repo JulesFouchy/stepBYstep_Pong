@@ -2,10 +2,12 @@
 
 void setup(){
   // initialiser les objets ici
+  size(1400,800); // on choisit la taille de la fenêtre (en pixels)
+  rectMode(CENTER); // on change un paramètre parce que c'est mieux comme ça ^^
 }
 
 void draw(){
-  // et leur dire que faire à chaque frame ici
+  // et c'est ici qu'on dit ce qu'il faut faire à chaque frame
 }
 
 
