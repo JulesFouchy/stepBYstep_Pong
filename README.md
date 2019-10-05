@@ -1,6 +1,6 @@
 # PONG pas à pas
 
-Vous pouvez télécharger le dossier "Pong" et jouer un peu ; ne regardez pas trop le code, on va essayer de tout réécrire nous-même ;)
+Vous pouvez sur https://www.openprocessing.org/sketch/764514 et jouer un peu ; ne regardez pas trop le code, on va essayer de tout réécrire nous-même ;)
 
 Ensuite téléchargez "PongCodeATrou", et c'est parti !
 
