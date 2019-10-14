@@ -19,6 +19,10 @@ Rebelotte ! Une balle partage peut-être des méthodes en commun avec une raquet
 
 Pour faire tourner le jeu il va falloir répéter une suite d'action (en général 60 fois par seconde (vous avez déjà entendu parler de "60 FPS" ?)). Quelles sont les actions à répéter à chaque frame ? Que faut-il tester, faire avancer... ?
 
+```C++
+int n = 0;
+```
+
 # 4) Améliorations selon vos envies !
 
 Testez votre jeu ; est-ce que des choses ne vous plaisent pas ? Comment pourrait-on y remédier ?
