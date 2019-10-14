@@ -47,7 +47,7 @@ class Balle {
 Et maintenant on peut multiplier la direction par la vitesse pour l'agrandir : 
 ```java
 void move() {
-  position.add(PVector.mult(direction, vitesse));
+  pos.add(PVector.mult(direction, vitesse));
 }
 ```
 
@@ -99,6 +99,8 @@ class Balle {
 ```
 
 Pensez bien à mettre la taille de la balle et de la raquette dans des variables si ce n'était pas déjà fait ! (respectivement rayon et largeur/hauteur) (C'est ces variables que vous devez aussi utiliser lors de l'affichage de la balle et de la raquette !)
+
+Maintenant qu'on a tout ce qu'il nous faut, il ne reste plus qu'à tout assembler dans notre fonction principale : *draw*. À vous de jouer !
 
 # 6) Améliorations selon vos envies !
 
