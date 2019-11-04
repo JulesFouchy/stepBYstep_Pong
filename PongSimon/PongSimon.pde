@@ -1,4 +1,5 @@
 Raquetteuh Coucou = new Raquetteuh();
+Raquetteuh A = new Raquetteuh ();
 Bouboule L = new Bouboule ();
 
 void setup (){
@@ -10,4 +11,13 @@ void draw(){
   L.JeanPaul();
   Coucou.VienFrer();
   Coucou.Djadja();
-}  
+  L.Move();
+  A.moveIA(L);
+  A.VienFrer();
+  if (L.Boopi(Coucou)){
+    L.Boopa();
+    if (L.Boope()){
+      L.Boop();
+    }
+  }
+} 

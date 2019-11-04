@@ -16,6 +16,18 @@ void draw(){
   raquetteGauche.deplacement();
   balle.affichage();
   balle.deplacement();
+  if( balle.RebondOuPasX(raquetteGauche) ){
+    balle.rebondX();
+    while(balle.RebondOuPasX(raquetteGauche)){
+     balle.deplacement(); 
+    }
+  }
+    if( balle.RebondOuPasY(raquetteGauche) ){
+    balle.rebondY();
+      while(balle.RebondOuPasY(raquetteGauche)){
+     balle.deplacement(); 
+    }
+  }
 }
 
 
